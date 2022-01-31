@@ -1,98 +1,105 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-}
-
-.container{
+  }
+  
+  .container {
     margin: auto;
     width: 60%;
-    
+  
     padding: 10px;
     margin-top: 50px;
-    background-color: rgb(228, 220, 220);
+    background-color: #ddd;
     /* text-align: center; */
-       
-}
-
-#newtask{
-    position: relative;
-    padding: 20px 2px;   
-
-}
-
-#newtask input{
-   padding: 5px;
-   width: 68%;
-   position: relative;
+  }
   
-}
-
-#newtask button{
-    /* width: 31%; */
+  #newtask {
+    position: relative;
+    padding: 20px 2px;
+  }
+  
+  #newtask input {
+    padding: 5px;
+    width: 79%;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  
+  #newtask button {
+    /* width: 5%; */
     float: right;
-    width: 30%;
-    background-color: cornflowerblue;
+    width: 20%;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 8px;
     padding: 5px;
     border: none;
     cursor: pointer;
     color: white;
-    
-}
-
-#tasks{
-    border: 1px solid black;
+  }
+  #taskname {
+    word-wrap: break-word;
+  }
+  
+  #tasks {
     width: 100%;
     position: relative;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding: 15px 10px;
     background-color: white;
-    
-}
-
-
-.task{
+    font-family: Serif;
+    font-weight: 500;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .task {
     padding: 20px 10px;
     /* display: flex; */
     align-items: center;
     /* justify-content: space-between; */
     cursor: pointer;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ddd;
     background-color: white;
-}
-/* #addedtask{
-    border: 1px solid black;
-} */
-
-
-.task span{
+  }
+  /* #addedtask{
+      border: 1px solid black;
+  } */
+  
+  .task span {
     cursor: pointer;
+    margin-left: 5px;
     /* justify-content: flex-start; */
-
-}
-.task button{
+  }
+  .task button {
     border: none;
-    width : 50px;
-    height: 25px;
-    color:cornflowerblue;
-    border: 0.1px solid black;
+    width: 50px;
+    height: 30px;
+    color: cornflowerblue;
+    
     border-radius: 5px;
     align-items: center;
     float: right;
-    color:red;
+    color: red;
     /* justify-content: flex-end; */
-}
-
-.completed{
+  }
+  
+  .completed {
     text-decoration: line-through;
     opacity: 0.7;
-}
-.fa-check-square{
-    color:green;
-}
-
-.fa-minus-square{
-    color:#ffcccb; 
-}
+    color: green;
+  }
+  .fa-check-square {
+    color: green;
+    margin-left: 5px;
+  }
+  
+  .fa-minus-square {
+    color: #FFCCCB;
+    margin-left: 5px;
+  }
+  .blur {
+    opacity: 0.3;
+  }
 
